@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-image:linear-gradient(120deg, #ffcba4, #ff9b50);
+  font-family: 'Poppins', sans-serif;
+  color: #ffff99;
+  min-height: 100vh;
+}
+header {
+  font-size: 1.5rem;
+}
+header, form {
+  min-height: 20vh;
+  font-size:2rem;
+  border: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form input, form button {
+  padding:0.5rem;
+  font-size:2rem;
+  border: none;
+  background: white;
+
+}
+form button {
+  color: #ffff99;
+  background: #ffcba4;
+  cursor: pointer;
+  transition: all 0.3 ease;
+}
+form button:hover{
+  background:#ffff99;
+  color:#ffcba4;
+}
+
+.todo-input {
+
+
+}
+
+.input-button {
+
+}
+.todo-list {
+
+}
