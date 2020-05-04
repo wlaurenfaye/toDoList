@@ -563,3 +563,11 @@ upto: bitwise operators
 started new project to help motivation!
 todo list, styled so far, to add js next session 
 https://www.youtube.com/watch?v=Ttf3CEsEwMQ
+
+
+17:20 04/05/2020
+add list item function done in js, styling next sesh
+https://www.youtube.com/watch?v=Ttf3CEsEwMQ
+> appending to child
+> adding class list 
+> creating element
