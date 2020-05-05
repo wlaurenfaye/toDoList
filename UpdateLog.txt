@@ -571,3 +571,9 @@ https://www.youtube.com/watch?v=Ttf3CEsEwMQ
 > appending to child
 > adding class list 
 > creating element
+
+11:10 05/05/2020
+styled list
+added function to add todo item
+added function to delete button
+https://www.youtube.com/watch?v=Ttf3CEsEwMQ
