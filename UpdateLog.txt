@@ -577,3 +577,8 @@ styled list
 added function to add todo item
 added function to delete button
 https://www.youtube.com/watch?v=Ttf3CEsEwMQ
+
+11:06 06/05/2020
+added checked function with animations by adding a class and event listener then removing the item 
+added a select filter dropdown and styled, to add function tomorrow
+

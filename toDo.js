@@ -48,6 +48,16 @@ function deleteCheck(e){
 //delete todo, if first class of the item selected is = to trash-btn, delete the item
  if (item.classList[0] === "trash-btn"){
    const todo = item.parentElement;
-   todo.remove();
+   //animation
+   todo.classList.add('fall')
+   todo.addEventListener('transitioned', function (){
+     todo.remove();
+   });
+ }
+
+ //check mark
+ if (item.classList[0] === "complete-btn"){
+   const todo = item.parentElement;
+   todo.classList.toggle('completed');
  }
 }

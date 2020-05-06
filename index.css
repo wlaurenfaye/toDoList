@@ -18,7 +18,6 @@ header, form {
   min-height: 20vh;
   font-size:2rem;
   border: none;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,7 +41,7 @@ form button:hover{
 }
 
 .todo-input {
-
+color: #DB5B43;
 
 }
 
@@ -58,15 +57,17 @@ list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 .todo {
   margin: 0.5rem;
   background: white;
-  color: black;
+  color:#DB5B43;
   font-size: 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: all 0.5s ease;
 }
 .todo li {
   flex: 1;
@@ -94,4 +95,50 @@ list-style: none;
 .fa-trash,
 .fa-check {
   pointer-events: none;
+}
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.fall {
+  transform: translateY(8rem) rotate(20deg);
+  opacity: 0;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  outline-style: none;
+}
+.select {
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+select {
+  color:#DB5B43;
+  text-align: center;
+  width: 10rem;
+  cursor: pointer;
+  border-style: none;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+
+}
+.select::after{
+  content: "\25BC";
+  position: absolute;
+  color: #ffff99;
+  background-color: #ffcba4;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.select:hover::after {
+  background-color: #ffff99;
+  color:#ffcba4;
+
 }
