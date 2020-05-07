@@ -582,3 +582,7 @@ https://www.youtube.com/watch?v=Ttf3CEsEwMQ
 added checked function with animations by adding a class and event listener then removing the item 
 added a select filter dropdown and styled, to add function tomorrow
 
+12:47 07/05/2020
+adding most of the filter functionality ran into an error, found it was because i left a space in betwen the <ul> </ul> so js couldnt define the variable and thought it was text >:(
+used .childNodes and forEach(function(todo){
+}

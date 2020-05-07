@@ -110,6 +110,7 @@ select {
   appearance: none;
   border: none;
   outline-style: none;
+
 }
 .select {
   margin: 1rem;
