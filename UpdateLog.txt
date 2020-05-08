@@ -586,3 +586,12 @@ added a select filter dropdown and styled, to add function tomorrow
 adding most of the filter functionality ran into an error, found it was because i left a space in betwen the <ul> </ul> so js couldnt define the variable and thought it was text >:(
 used .childNodes and forEach(function(todo){
 }
+
+12:26 08/05/2020
+finished option function
+create local storage, saving to local storage
+todos.splice
+localStorage.setItem("todos",JSON.stringify(todos));
+using arrays
+need to figure out more about local storage and server side stuffs
+tutorial complete
